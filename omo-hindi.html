@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2026-07-06 Mon 18:56 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Hindi</title>
+<meta name="author" content="Staff Member(s), [[https://ourghostorg.github.io/][OurGhostOrg]]" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Hindi</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org147b22e">1. General</a></li>
+<li><a href="#orgf2b3cd5">2. STEMM</a>
+<ul>
+<li><a href="#org5f15537">2.1. Computer Science And Engineering</a>
+<ul>
+<li><a href="#orgbec46f9">2.1.1. Everday Computing</a></li>
+</ul>
+</li>
+<li><a href="#org92ea80a">2.2. Misc</a></li>
+</ul>
+</li>
+<li><a href="#org2d4712c">3. Worldly Matters</a>
+<ul>
+<li><a href="#orgd0a5483">3.1. Misc</a>
+<ul>
+<li><a href="#orgddf1d4a">3.1.1. Articles, Essays</a></li>
+<li><a href="#org66f3ec2">3.1.2. Texts</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgb78d8bc">4. Core</a>
+<ul>
+<li><a href="#org6efb08b">4.1. General</a></li>
+<li><a href="#org4f8974d">4.2. Publishers</a></li>
+<li><a href="#orga8f4a52">4.3. Dictionary</a>
+<ul>
+<li><a href="#org6edbfb8">4.3.1. Hindi-English</a></li>
+<li><a href="#org91fcdd1">4.3.2. English-Hindi</a></li>
+</ul>
+</li>
+<li><a href="#org983ff0c">4.4. Grammar</a></li>
+</ul>
+</li>
+<li><a href="#org17ee0d8">5. Arts</a>
+<ul>
+<li><a href="#org0a8f6c8">5.1. Misc</a></li>
+</ul>
+</li>
+<li><a href="#org781aada">6. Special Topics</a>
+<ul>
+<li><a href="#orgc54ed8e">6.1. F. Orsini</a>
+<ul>
+<li><a href="#org7e9061a">6.1.1. General</a></li>
+<li><a href="#org553dc82">6.1.2. Special Topics</a></li>
+<li><a href="#orgb670c8a">6.1.3. Misc</a></li>
+</ul>
+</li>
+<li><a href="#org9179d13">6.2. Texts</a></li>
+<li><a href="#org2da8954">6.3. Articles, Essays</a></li>
+</ul>
+</li>
+<li><a href="#orgcfba9f5">7. Misc</a></li>
+</ul>
+</div>
+</div>
+<hr />
+<div id="outline-container-org147b22e" class="outline-2">
+<h2 id="org147b22e"><span class="section-number-2">1.</span> General</h2>
+</div>
+<div id="outline-container-orgf2b3cd5" class="outline-2">
+<h2 id="orgf2b3cd5"><span class="section-number-2">2.</span> STEMM</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org5f15537" class="outline-3">
+<h3 id="org5f15537"><span class="section-number-3">2.1.</span> Computer Science And Engineering</h3>
+<div class="outline-text-3" id="text-2-1">
+</div>
+<div id="outline-container-orgbec46f9" class="outline-4">
+<h4 id="orgbec46f9"><span class="section-number-4">2.1.1.</span> Everday Computing</h4>
+<div class="outline-text-4" id="text-2-1-1">
+</div>
+<ol class="org-ol">
+<li><a id="orgd376911"></a>Dictionary<br />
+<ol class="org-ol">
+<li><a id="orga99591a"></a>Misc<br />
+<div class="outline-text-6" id="text-2-1-1-1-1">
+<ul class="org-ul">
+<li>M. Caturvedi, “A Practical Hindi-English Dictionary.” Accessed: Jan. 03, 2024. [Online]. Available: <a href="https://dsal.uchicago.edu/dictionaries/caturvedi/">https://dsal.uchicago.edu/dictionaries/caturvedi/</a></li>
+<li>R. S. (Ronald S. McGregor, “The Oxford Hindi-English dictionary.” Accessed: Jan. 03, 2024. [Online]. Available: <a href="https://dsal.uchicago.edu/dictionaries/mcgregor/">https://dsal.uchicago.edu/dictionaries/mcgregor/</a></li>
+</ul>
+</div>
+</li>
+<li><a id="orgd8540f5"></a>Wiktionary<br />
+<div class="outline-text-6" id="text-2-1-1-1-2">
+<ul class="org-ul">
+<li>“Category:Hindi language,” Wiktionary, the free dictionary. Sep. 24, 2021. Accessed: Jan. 03, 2024. [Online]. Available: <a href="https://en.wiktionary.org/w/index.php?title=Category:Hindi_language&amp;oldid=64027877">https://en.wiktionary.org/w/index.php?title=Category:Hindi_language&amp;oldid=64027877</a></li>
+<li>“Category:Hindi phrases,” Wiktionary, the free dictionary. Jun. 20, 2022. Accessed: Jan. 03, 2024. [Online]. Available: <a href="https://en.wiktionary.org/w/index.php?title=Category:Hindi_phrases&amp;oldid=67420611">https://en.wiktionary.org/w/index.php?title=Category:Hindi_phrases&amp;oldid=67420611</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org92ea80a" class="outline-3">
+<h3 id="org92ea80a"><span class="section-number-3">2.2.</span> Misc</h3>
+<div class="outline-text-3" id="text-2-2">
+<ul class="org-ul">
+<li>“shivani-centre.” Accessed: Jan. 27, 2024. [Online]. Available: <a href="https://www.iitk.ac.in/new/shivani-centre">https://www.iitk.ac.in/new/shivani-centre</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org2d4712c" class="outline-2">
+<h2 id="org2d4712c"><span class="section-number-2">3.</span> Worldly Matters</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-orgd0a5483" class="outline-3">
+<h3 id="orgd0a5483"><span class="section-number-3">3.1.</span> Misc</h3>
+<div class="outline-text-3" id="text-3-1">
+</div>
+<div id="outline-container-orgddf1d4a" class="outline-4">
+<h4 id="orgddf1d4a"><span class="section-number-4">3.1.1.</span> Articles, Essays</h4>
+<div class="outline-text-4" id="text-3-1-1">
+<ul class="org-ul">
+<li>“Samayantar’s two-and-half-decade fight against the shrinking of Hindi’s world.” Accessed: Dec. 05, 2025. [Online]. Available: <a href="https://caravanmagazine.in/media/samayantar-hindi-magazine-pankaj-bisht-independent">https://caravanmagazine.in/media/samayantar-hindi-magazine-pankaj-bisht-independent</a></li>
+
+<li>“Why We Need All Scholars – Foreign and Indian – to Study India,” The Wire. Accessed: Nov. 08, 2025. [Online]. Available: <a href="https://thewire.in/rights/deporting-a-foreign-scholar-studying-india-is-contrary-to-indian-interest">https://thewire.in/rights/deporting-a-foreign-scholar-studying-india-is-contrary-to-indian-interest</a></li>
+<li>S. Chakrabarty, “Francesca Orsini: Scholar of the east,” The Hindu, Nov. 01, 2025. Accessed: Nov. 03, 2025. [Online]. Available: <a href="https://www.thehindu.com/news/national/francesca-orsini-scholar-of-the-east/article70230493.ece">https://www.thehindu.com/news/national/francesca-orsini-scholar-of-the-east/article70230493.ece</a></li>
+
+<li>“Free world: On the deportation of Francesca Orsini,” The Hindu, Oct. 22, 2025. Accessed: Oct. 23, 2025. [Online]. Available: <a href="https://www.thehindu.com/opinion/editorial/free-world-on-the-deportation-of-francesca-orsini/article70190494.ece">https://www.thehindu.com/opinion/editorial/free-world-on-the-deportation-of-francesca-orsini/article70190494.ece</a></li>
+<li>“Globally Renowned Scholar of Hindi Deported from Delhi Airport Despite Valid Visa,” The Wire. Accessed: Oct. 21, 2025. [Online]. Available: <a href="https://thewire.in/rights/globally-renowned-scholar-of-hindi-deported-from-delhi-airport-despite-valid-visa">https://thewire.in/rights/globally-renowned-scholar-of-hindi-deported-from-delhi-airport-despite-valid-visa</a></li>
+<li>“Stopping Francesca Orsini From Entering India is an Insult to the Very Concept and Culture of Knowledge,” The Wire. Accessed: Oct. 21, 2025. [Online]. Available: <a href="https://thewire.in/rights/stopping-francesca-orsini-from-entering-india-is-an-insult-to-the-very-concept-and-culture-of-knowledge">https://thewire.in/rights/stopping-francesca-orsini-from-entering-india-is-an-insult-to-the-very-concept-and-culture-of-knowledge</a></li>
+<li>S. Staff, “London-based Hindi scholar Francesca Orsini stopped from entering India: Report,” Scroll.in. Accessed: Oct. 21, 2025. [Online]. Available: <a href="https://scroll.in/latest/1087862/london-based-hindi-scholar-francesca-orsini-barred-from-entering-india-report">https://scroll.in/latest/1087862/london-based-hindi-scholar-francesca-orsini-barred-from-entering-india-report</a></li>
+</ul>
+
+
+
+
+<ul class="org-ul">
+<li>“Globally Renowned Scholar of Hindi Deported from Delhi Airport Despite Valid Visa,” The Wire. Accessed: Oct. 21, 2025. [Online]. Available: <a href="https://thewire.in/rights/globally-renowned-scholar-of-hindi-deported-from-delhi-airport-despite-valid-visa">https://thewire.in/rights/globally-renowned-scholar-of-hindi-deported-from-delhi-airport-despite-valid-visa</a></li>
+
+<li>“Which Hindi Do We Speak Anyway?,” The Wire. Accessed: Sep. 23, 2025. [Online]. Available: <a href="https://thewire.in/media/which-hindi-do-we-speak-anyway">https://thewire.in/media/which-hindi-do-we-speak-anyway</a></li>
+
+<li>N. L. Team, “Manu Joseph: Hindi cannot colonise the South because Hindi is useless,” Newslaundry. Accessed: Aug. 07, 2025. [Online]. Available: <a href="https://www.newslaundry.com/2025/08/07/manu-joseph-hindi-cannot-colonise-the-south-because-hindi-is-useless">https://www.newslaundry.com/2025/08/07/manu-joseph-hindi-cannot-colonise-the-south-because-hindi-is-useless</a></li>
+
+<li>Apoorvanand, “Hindi’s Hindutva problem that supporters are not ready to reckon with,” Scroll.in. Accessed: Jul. 15, 2025. [Online]. Available: <a href="https://scroll.in/article/1084499/hindis-hindutva-problem-that-language-supporters-are-not-ready-to-reckon-with">https://scroll.in/article/1084499/hindis-hindutva-problem-that-language-supporters-are-not-ready-to-reckon-with</a></li>
+
+<li>“Speak English? Shame, Shame: Hindi push seen in new ignominy meter.” Accessed: Jun. 22, 2025. [Online]. Available: <a href="https://www.telegraphindia.com/india/speak-english-shame-shame-hindi-push-seen-in-new-ignominy-meter-prnt/cid/2108739">https://www.telegraphindia.com/india/speak-english-shame-shame-hindi-push-seen-in-new-ignominy-meter-prnt/cid/2108739</a></li>
+</ul>
+
+
+
+
+
+<ul class="org-ul">
+<li>“Hindi | The Caravan.” Accessed: Jan. 28, 2024. [Online]. Available: <a href="https://caravanmagazine.in/tag/hindi">https://caravanmagazine.in/tag/hindi</a></li>
+
+<li>“Hindi,” Economic and Political Weekly. Accessed: Jan. 28, 2024. [Online]. Available: <a href="https://www.epw.in/tags/hindi">https://www.epw.in/tags/hindi</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>A. Mandhwani, “How the Hindi magazine ‘Sarita’ cultivated new reading practices and redefined the Indian citizen,” Scroll.in. Accessed: Aug. 06, 2024. [Online]. Available: <a href="https://scroll.in/article/1071342/how-the-hindi-magazine-sarita-cultivated-new-reading-practices-and-redefined-the-indian-citizen">https://scroll.in/article/1071342/how-the-hindi-magazine-sarita-cultivated-new-reading-practices-and-redefined-the-indian-citizen</a></li>
+<li>“Political Economy of Hindi Imposition in India,” NewsClick. Accessed: Apr. 25, 2025. [Online]. Available: <a href="https://www.newsclick.in/political-economy-hindi-imposition-india">https://www.newsclick.in/political-economy-hindi-imposition-india</a></li>
+
+<li>V. Sanghvi, “South India took the country forward. Language of the failing Hindi belt can’t be imposed on it,” ThePrint. Accessed: Mar. 03, 2025. [Online]. Available: <a href="https://theprint.in/opinion/sharp-edge/south-india-took-country-forward-language-failing-hindi-belt-cannot-be-imposed/2514579/">https://theprint.in/opinion/sharp-edge/south-india-took-country-forward-language-failing-hindi-belt-cannot-be-imposed/2514579/</a></li>
+
+<li>M. S. Aiyar, “Tamil Nadu Rejects Hindi Imposition: NEP Sparks Federalism Debate Over State Autonomy,” Frontline. Accessed: Feb. 26, 2025. [Online]. Available: <a href="https://frontline.thehindu.com/columns/mani-talk-tamil-nadu-education-hindi-imposition-debate-nep-impact-centre-state-relations-federalism/article69261334.ece">https://frontline.thehindu.com/columns/mani-talk-tamil-nadu-education-hindi-imposition-debate-nep-impact-centre-state-relations-federalism/article69261334.ece</a></li>
+
+<li>“What Hindi keeps hidden.” Accessed: Jan. 11, 2025. [Online]. Available: <a href="https://caravanmagazine.in/caste/what-hindi-keeps-hidden">https://caravanmagazine.in/caste/what-hindi-keeps-hidden</a></li>
+
+<li>K. R. Manoharan, “Why Anti-Hindi Protests Shaped Tamil Politics For 60 Years - And Still Matter Today,” Frontline. Accessed: Nov. 12, 2024. [Online]. Available: <a href="https://frontline.thehindu.com/books/dravida-munnetra-kazhagam-hindi-imperialism-tamil-nadu-post-independence-emergency-1975-periyar-ev-ramasamy/article68828841.ece">https://frontline.thehindu.com/books/dravida-munnetra-kazhagam-hindi-imperialism-tamil-nadu-post-independence-emergency-1975-periyar-ev-ramasamy/article68828841.ece</a></li>
+
+<li>“What Hindi keeps hidden.” Accessed: Sep. 17, 2024. [Online]. Available: <a href="https://caravanmagazine.in/caste/what-hindi-keeps-hidden">https://caravanmagazine.in/caste/what-hindi-keeps-hidden</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org66f3ec2" class="outline-4">
+<h4 id="org66f3ec2"><span class="section-number-4">3.1.2.</span> Texts</h4>
+<div class="outline-text-4" id="text-3-1-2">
+<ul class="org-ul">
+<li>O. Francesca, THE HINDI PUBLIC SPHERE 1920-1940 (OIP): Language and Literature in the Age of Nationalism. New Delhi: OUP India, 2009.</li>
+<li>A. Aruna, Hindi Imperialism. Speaking Tiger, 2024.</li>
+<li>V. Dalmia, NATIONALIZATION OF HINDU TRADITIONS, THE, Second edition. Raniket: Permanent Black, 2010.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb78d8bc" class="outline-2">
+<h2 id="orgb78d8bc"><span class="section-number-2">4.</span> Core</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-org6efb08b" class="outline-3">
+<h3 id="org6efb08b"><span class="section-number-3">4.1.</span> General</h3>
+<div class="outline-text-3" id="text-4-1">
+<ul class="org-ul">
+<li>R. Snell and S. Weightman, <i>Complete Hindi with Two Audio CDs: A Teach Yourself Guide.</i> McGraw-Hill Education, 2011.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org4f8974d" class="outline-3">
+<h3 id="org4f8974d"><span class="section-number-3">4.2.</span> Publishers</h3>
+<div class="outline-text-3" id="text-4-2">
+<ul class="org-ul">
+<li>“Home page.” <a href="https://manjulindia.com/">https://manjulindia.com/</a> (accessed Apr. 03, 2023).</li>
+<li>“Rajkamal Prakashan.” <a href="https://rajkamalprakashan.com/">https://rajkamalprakashan.com/</a> (accessed Apr. 03, 2023).</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orga8f4a52" class="outline-3">
+<h3 id="orga8f4a52"><span class="section-number-3">4.3.</span> Dictionary</h3>
+<div class="outline-text-3" id="text-4-3">
+</div>
+<div id="outline-container-org6edbfb8" class="outline-4">
+<h4 id="org6edbfb8"><span class="section-number-4">4.3.1.</span> Hindi-English</h4>
+<div class="outline-text-4" id="text-4-3-1">
+<ul class="org-ul">
+<li>Mcgregor, Oxford Hindi-English Dictionary | Paperback, Edition. Oxford: Oxford, 2010.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org91fcdd1" class="outline-4">
+<h4 id="org91fcdd1"><span class="section-number-4">4.3.2.</span> English-Hindi</h4>
+<div class="outline-text-4" id="text-4-3-2">
+<ul class="org-ul">
+<li>S. K. Verma and R. N. Sahai, Oxford English-Hindi Dictionary. Oxford University Press, 2017.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org983ff0c" class="outline-3">
+<h3 id="org983ff0c"><span class="section-number-3">4.4.</span> Grammar</h3>
+<div class="outline-text-3" id="text-4-4">
+<ul class="org-ul">
+<li>R. S. McGregor, <i>Outline of Hindi Grammar, with Exercises.</i> Oxford University Press, 1995.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org17ee0d8" class="outline-2">
+<h2 id="org17ee0d8"><span class="section-number-2">5.</span> Arts</h2>
+<div class="outline-text-2" id="text-5">
+</div>
+<div id="outline-container-org0a8f6c8" class="outline-3">
+<h3 id="org0a8f6c8"><span class="section-number-3">5.1.</span> Misc</h3>
+<div class="outline-text-3" id="text-5-1">
+<ul class="org-ul">
+<li>L. Rosenstein, New Poetry in Hindi (Nayi Kavita): An Anthology, 0 edition. Delhi: Permanent Black, 2002.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org781aada" class="outline-2">
+<h2 id="org781aada"><span class="section-number-2">6.</span> Special Topics</h2>
+<div class="outline-text-2" id="text-6">
+</div>
+<div id="outline-container-orgc54ed8e" class="outline-3">
+<h3 id="orgc54ed8e"><span class="section-number-3">6.1.</span> F. Orsini</h3>
+<div class="outline-text-3" id="text-6-1">
+</div>
+<div id="outline-container-org7e9061a" class="outline-4">
+<h4 id="org7e9061a"><span class="section-number-4">6.1.1.</span> General</h4>
+</div>
+<div id="outline-container-org553dc82" class="outline-4">
+<h4 id="org553dc82"><span class="section-number-4">6.1.2.</span> Special Topics</h4>
+<div class="outline-text-4" id="text-6-1-2">
+</div>
+<ol class="org-ol">
+<li><a id="org680f5e6"></a>Hindi<br />
+<div class="outline-text-5" id="text-6-1-2-1">
+<ul class="org-ul">
+<li>F. Orsini, Hindi Ka Lokvrit [Hardcover] Francesca Orsini, First Edition. Nayī Dillī: Vani Prakashan, 2023.</li>
+</ul>
+</div>
+</li>
+<li><a id="org91412ac"></a>Hinglish<br />
+<div class="outline-text-5" id="text-6-1-2-2">
+<ul class="org-ul">
+<li>F. Orsini and Ravikant, Hinglish Live: Language Mixing Across Media, First Edition. Hyderabad: Orient Blackswan Private Limited, 2022.</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-orgb670c8a" class="outline-4">
+<h4 id="orgb670c8a"><span class="section-number-4">6.1.3.</span> Misc</h4>
+<div class="outline-text-4" id="text-6-1-3">
+<ul class="org-ul">
+<li>F. Orsini and S. Sheikh, After Timur Left-Pd: Culture and Circulation in Fifteenth-Century North India, Illustrated edition. New Delhi, India: Oxford University Press, 2014.</li>
+<li>F. Orsini, East of Delhi: Multilingual Literary Culture and World Literature. Oxford University Press, 2023.</li>
+<li>F. Orsini, Print and Pleasure: Popular Literature and Entertaining Fictions in Colonial North India. Permanent Black, 2018.</li>
+<li>F. Orsini, Objects, Images, Stories<sub>C</sub>. New Delhi, India: Oxford University Press, 2022.</li>
+<li>F. Orsini, Before The Divide, 1st edition. New Delhi: Orient Blackswan Private Limited - New Delhi, 2011.</li>
+<li>F. Orsini, Ed., Love in South Asia: A Cultural History: 62. Cambridge ; New York: Cambridge University Press, 2006.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org9179d13" class="outline-3">
+<h3 id="org9179d13"><span class="section-number-3">6.2.</span> Texts</h3>
+<div class="outline-text-3" id="text-6-2">
+<ul class="org-ul">
+<li>B. Anderson et al., Debating World Literature. Verso, 2020.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org2da8954" class="outline-3">
+<h3 id="org2da8954"><span class="section-number-3">6.3.</span> Articles, Essays</h3>
+<div class="outline-text-3" id="text-6-3">
+<ul class="org-ul">
+<li>S. Debnath, “‘Everyday Reading’: A richly informative book relives the glory days of Hindi magazine publishing,” Scroll.in. Accessed: Dec. 07, 2024. [Online]. Available: <a href="https://scroll.in/article/1075831/everyday-reading-a-richly-informative-book-relives-the-glory-days-of-hindi-magazine-publishing">https://scroll.in/article/1075831/everyday-reading-a-richly-informative-book-relives-the-glory-days-of-hindi-magazine-publishing</a></li>
+<li>Apoorvanand, “Hindi Diwas paradox: Language of cultural pride that few Indians can read and write properly in,” Scroll.in. Accessed: Sep. 20, 2024. [Online]. Available: <a href="https://scroll.in/article/1073364/hindi-diwas-paradox-language-of-cultural-pride-that-few-indians-can-read-and-write-properly-in">https://scroll.in/article/1073364/hindi-diwas-paradox-language-of-cultural-pride-that-few-indians-can-read-and-write-properly-in</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgcfba9f5" class="outline-2">
+<h2 id="orgcfba9f5"><span class="section-number-2">7.</span> Misc</h2>
+<div class="outline-text-2" id="text-7">
+<ul class="org-ul">
+<li>“The Evolution of Hindi: Tracing its Roots from Sanskrit Language,” Motilal Banarsidass. Accessed: Dec. 03, 2025. [Online]. Available: <a href="https://www.motilalbanarsidass.com">https://www.motilalbanarsidass.com</a></li>
+
+<li>A. M. Dhingra Priyanka Basu, Raahi Adhya, Chinmay Sharma &amp;. Kanupriya, “What does Francesca Orsini’s scholarly work say? Five former students explain what they have learnt,” Scroll.in. Accessed: Oct. 27, 2025. [Online]. Available: <a href="https://scroll.in/article/1088004/what-does-francesca-orsinis-scholarly-work-say-five-former-students-explain-what-they-have-learnt">https://scroll.in/article/1088004/what-does-francesca-orsinis-scholarly-work-say-five-former-students-explain-what-they-have-learnt</a></li>
+</ul>
+
+<hr />
+
+<p>
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/omo-bigpic.html">Big Picture</a> <b>|</b>
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/omo-media.html">Media</a>, 
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/omo-miscurls.html">Misc</a> <b>|</b>
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/omo-today.html">Today</a>,
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/omo-aajkal.html">Current Affairs</a> <b>|</b>
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/contact-info.html">Contact Info</a>,
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/license.html">License</a>, 
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/disclaimer.html">Disclaimer</a>.
+</p>
+
+<hr />
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Staff Member(s), <a href="https://ourghostorg.github.io/">OurGhostOrg</a></p>
+<p class="date">Created: 2026-07-06 Mon 18:56</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

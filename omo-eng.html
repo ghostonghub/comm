@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2026-07-06 Mon 18:56 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>English</title>
+<meta name="author" content="Staff Member(s), [[https://ourghostorg.github.io/][OurGhostOrg]]" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">English</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org7a04c8d">1. General</a></li>
+<li><a href="#org338c7ea">2. STEMM</a>
+<ul>
+<li><a href="#org399dc58">2.1. Computer Science And Engineering</a>
+<ul>
+<li><a href="#org8b7738b">2.1.1. Everday Computing</a></li>
+</ul>
+</li>
+<li><a href="#org3ebac33">2.2. Misc</a></li>
+</ul>
+</li>
+<li><a href="#org0b49246">3. Worldly Matters</a>
+<ul>
+<li><a href="#org493ca74">3.1. Misc</a></li>
+</ul>
+</li>
+<li><a href="#org833c037">4. Core</a>
+<ul>
+<li><a href="#org20e5f96">4.1. Grammar</a>
+<ul>
+<li><a href="#org8a1331d">4.1.1. School</a></li>
+<li><a href="#org11bf9c3">4.1.2. Miscellaneous</a></li>
+</ul>
+</li>
+<li><a href="#orgb1e072d">4.2. Dictionaries</a>
+<ul>
+<li><a href="#org0c45e1f">4.2.1. Slang</a></li>
+<li><a href="#org16f824d">4.2.2. Pocket</a></li>
+<li><a href="#org23679ff">4.2.3. Standard</a></li>
+<li><a href="#orge6360c6">4.2.4. Hindi-English</a></li>
+<li><a href="#orgebbf64b">4.2.5. English-Hindi</a></li>
+</ul>
+</li>
+<li><a href="#orge5b805b">4.3. Misc</a></li>
+</ul>
+</li>
+<li><a href="#org5e9384a">5. Special Topics</a>
+<ul>
+<li><a href="#orge062431">5.1. English: The Least Everyone Needs To Know</a>
+<ul>
+<li><a href="#org768e022">5.1.1. General</a></li>
+<li><a href="#org8570d17">5.1.2. Texts</a></li>
+<li><a href="#orgd016e4d">5.1.3. Special Topics</a></li>
+<li><a href="#org43d4f80">5.1.4. Misc</a></li>
+</ul>
+</li>
+<li><a href="#org454ba2f">5.2. World Englishes</a></li>
+</ul>
+</li>
+<li><a href="#orgaeffe3d">6. Misc</a></li>
+</ul>
+</div>
+</div>
+<hr />
+<div id="outline-container-org7a04c8d" class="outline-2">
+<h2 id="org7a04c8d"><span class="section-number-2">1.</span> General</h2>
+</div>
+<div id="outline-container-org338c7ea" class="outline-2">
+<h2 id="org338c7ea"><span class="section-number-2">2.</span> STEMM</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org399dc58" class="outline-3">
+<h3 id="org399dc58"><span class="section-number-3">2.1.</span> Computer Science And Engineering</h3>
+<div class="outline-text-3" id="text-2-1">
+</div>
+<div id="outline-container-org8b7738b" class="outline-4">
+<h4 id="org8b7738b"><span class="section-number-4">2.1.1.</span> Everday Computing</h4>
+<div class="outline-text-4" id="text-2-1-1">
+<ul class="org-ul">
+<li>“Collins English Dictionary | Translations, Definitions and Pronunciations.” Accessed: Jan. 03, 2024. [Online]. Available: <a href="https://www.collinsdictionary.com/dictionary/english-hindi">https://www.collinsdictionary.com/dictionary/english-hindi</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org3ebac33" class="outline-3">
+<h3 id="org3ebac33"><span class="section-number-3">2.2.</span> Misc</h3>
+</div>
+</div>
+<div id="outline-container-org0b49246" class="outline-2">
+<h2 id="org0b49246"><span class="section-number-2">3.</span> Worldly Matters</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-org493ca74" class="outline-3">
+<h3 id="org493ca74"><span class="section-number-3">3.1.</span> Misc</h3>
+<div class="outline-text-3" id="text-3-1">
+<ul class="org-ul">
+<li>“How do you decolonise the English language? | Aeon Essays,” Aeon. <a href="https://aeon.co/essays/how-do-you-decolonise-the-english-language">https://aeon.co/essays/how-do-you-decolonise-the-english-language</a> (accessed Apr. 14, 2023).</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org833c037" class="outline-2">
+<h2 id="org833c037"><span class="section-number-2">4.</span> Core</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-org20e5f96" class="outline-3">
+<h3 id="org20e5f96"><span class="section-number-3">4.1.</span> Grammar</h3>
+<div class="outline-text-3" id="text-4-1">
+</div>
+<div id="outline-container-org8a1331d" class="outline-4">
+<h4 id="org8a1331d"><span class="section-number-4">4.1.1.</span> School</h4>
+<div class="outline-text-4" id="text-4-1-1">
+<ul class="org-ul">
+<li>W. &amp; Martin, <b>High School English Grammar &amp; Composition (Multicolour Edition).</b> S. Chand Publishing, 2015.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org11bf9c3" class="outline-4">
+<h4 id="org11bf9c3"><span class="section-number-4">4.1.2.</span> Miscellaneous</h4>
+<div class="outline-text-4" id="text-4-1-2">
+<ul class="org-ul">
+<li>R. Quirk, <i>A Comprehensive Grammar of the English Language.</i> Pearson Education India, 2010.</li>
+<li>S. Greenbaum, <b>The Oxford English Grammar.</b> Oxford University Press, 1996.</li>
+<li>R. Carter and M. McCarthy, <i>Cambridge Grammar of English Hardback with CD-ROM: A Comprehensive Guide.</i> Cambridge University Press, 2006.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb1e072d" class="outline-3">
+<h3 id="orgb1e072d"><span class="section-number-3">4.2.</span> Dictionaries</h3>
+<div class="outline-text-3" id="text-4-2">
+</div>
+<div id="outline-container-org0c45e1f" class="outline-4">
+<h4 id="org0c45e1f"><span class="section-number-4">4.2.1.</span> Slang</h4>
+<div class="outline-text-4" id="text-4-2-1">
+<ul class="org-ul">
+<li>“Urban Dictionary, March 14: morning deflation,” Urban Dictionary. <a href="https://www.urbandictionary.com/">https://www.urbandictionary.com/</a> (accessed Mar. 14, 2022).</li>
+<li>“Urban Dictionary,” Wikipedia. Feb. 23, 2022. Accessed: Mar. 14, 2022. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=Urban_Dictionary&amp;oldid=1073629911">https://en.wikipedia.org/w/index.php?title=Urban_Dictionary&amp;oldid=1073629911</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org16f824d" class="outline-4">
+<h4 id="org16f824d"><span class="section-number-4">4.2.2.</span> Pocket</h4>
+<div class="outline-text-4" id="text-4-2-2">
+<ul class="org-ul">
+<li>O. Dictionaries, Oxford Pocket English Dictionary - 11th Edition | For Everyday Use | 2 Billion + Words, Eleventh edition. Oxford, 2013.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org23679ff" class="outline-4">
+<h4 id="org23679ff"><span class="section-number-4">4.2.3.</span> Standard</h4>
+<div class="outline-text-4" id="text-4-2-3">
+<ul class="org-ul">
+<li>M.-W. M. Market, The Merriam-Webster Dictionary, New edition. Springfield, Massachusetts: Merriam-Webster Mass Market, 2016.</li>
+
+<li>O. Dictionaries, Oxford Dictionary of English | 3rd Edition | Hardbound, 3rd edition. New York, NY: Oxford, 2010.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge6360c6" class="outline-4">
+<h4 id="orge6360c6"><span class="section-number-4">4.2.4.</span> Hindi-English</h4>
+<div class="outline-text-4" id="text-4-2-4">
+<ul class="org-ul">
+<li>Mcgregor, Oxford Hindi-English Dictionary | Paperback, Edition. Oxford: Oxford, 2010.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgebbf64b" class="outline-4">
+<h4 id="orgebbf64b"><span class="section-number-4">4.2.5.</span> English-Hindi</h4>
+<div class="outline-text-4" id="text-4-2-5">
+<ul class="org-ul">
+<li>S. K. Verma and R. N. Sahai, Oxford English-Hindi Dictionary. Oxford University Press, 2017.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orge5b805b" class="outline-3">
+<h3 id="orge5b805b"><span class="section-number-3">4.3.</span> Misc</h3>
+<div class="outline-text-3" id="text-4-3">
+<ul class="org-ul">
+<li>N. Lewis, Instant Word Power. Penguin, 2019.</li>
+<li>N. Lewis, Word Power Made Easy [Paperback] Norman Lewis, LateSt Edition. Haryana, India: Penguin India, 2015.</li>
+<li>N. Lewis, 30 Days to Better English. Penguin, 2019.</li>
+</ul>
+
+
+<ul class="org-ul">
+<li>M. Swan, Oxford Practical English Usage | Fully Revised International Edition by Michael Swan, Fourth-International edition. Oxford, United Kingdom: Oxford University Press, 2016.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org5e9384a" class="outline-2">
+<h2 id="org5e9384a"><span class="section-number-2">5.</span> Special Topics</h2>
+<div class="outline-text-2" id="text-5">
+</div>
+<div id="outline-container-orge062431" class="outline-3">
+<h3 id="orge062431"><span class="section-number-3">5.1.</span> English: The Least Everyone Needs To Know</h3>
+<div class="outline-text-3" id="text-5-1">
+</div>
+<div id="outline-container-org768e022" class="outline-4">
+<h4 id="org768e022"><span class="section-number-4">5.1.1.</span> General</h4>
+</div>
+<div id="outline-container-org8570d17" class="outline-4">
+<h4 id="org8570d17"><span class="section-number-4">5.1.2.</span> Texts</h4>
+<div class="outline-text-4" id="text-5-1-2">
+<ul class="org-ul">
+<li>W. Strunk, <b>The Elements of Style.</b> Allyn and Bacon, 2000.
+<ul class="org-ul">
+<li>The least one needs to learn about 'correct' English usage.</li>
+</ul></li>
+
+<li>“Normal Lewis Collection English Learning Book Set.” Accessed: May 18, 2026. [Online]. Available: <a href="https://www.amazon.in/Unlock-Your-Word-Power-Bestselling/dp/014345045X/520-9023490-8349014?psc=1">https://www.amazon.in/Unlock-Your-Word-Power-Bestselling/dp/014345045X/520-9023490-8349014?psc=1</a>
+<ul class="org-ul">
+<li>“Instant Word Power : Lewis, Norman: Amazon.in: Books.” Accessed: May 18, 2026. [Online]. Available: <a href="https://www.amazon.in/Instant-Word-Power-Norman-Lewis/dp/0143447971/520-9023490-8349014?psc=1">https://www.amazon.in/Instant-Word-Power-Norman-Lewis/dp/0143447971/520-9023490-8349014?psc=1</a></li>
+<li>“Word Power Made Easy: | Over a million copies sold Worldwide | With Self Assessment Activities | Ideal For IELTS &amp; TOEFL Preparations : Lewis, Norman: Amazon.in: Books.” Accessed: May 18, 2026. [Online]. Available: <a href="https://www.amazon.in/Word-Power-Made-Norman-Lewis/dp/0143424688?s=bazaar">https://www.amazon.in/Word-Power-Made-Norman-Lewis/dp/0143424688?s=bazaar</a></li>
+<li>“30 Days to Better English.” Accessed: May 18, 2026. [Online]. Available: <a href="https://www.amazon.in/Days-Better-English-Lewis-Norman/dp/014344798X/520-9023490-8349014?psc=1">https://www.amazon.in/Days-Better-English-Lewis-Norman/dp/014344798X/520-9023490-8349014?psc=1</a></li>
+</ul></li>
+
+<li>G. Taylor, English Conversation Practice | English Speaking. McGraw Hill Education.</li>
+
+<li>R. Murphy, English Grammar in Use Book without Answers: A Self-study Reference and Practice Book for Intermediate Learners of English. Cambridge University Press.</li>
+<li>S. Redman, English Vocabulary in Use Pre-Intermediate and Intermediate Book with Answers: Vocabulary Reference and Practice. Cambridge New York, NY Port Melbourne, VIC Delhi Singapore: Cambridge University Press, 2017.</li>
+
+<li>I. D. Kindersley, English for Everyone Intermediate and Advanced: ESL for Adults, an Interactive Course to Learning English. Dk Pub.</li>
+<li>T. Booth, BX-ENG FOR EVERYONE ENG IDIOMS VOCABULAR: English Idioms / Vocabulary Builder / Phrasal Verbs. Dk Pub.</li>
+<li>DK, English for Everyone Beginner Box Set: ESL for Adults, an Interactive Course to Learning English. DK.</li>
+
+<li>“Oxford Practical English Usage | Fully Revised International Edition by Michael Swan : Michael Swan: Amazon.in: Books.” Accessed: May 18, 2026. [Online]. Available: <a href="https://www.amazon.in/Practical-English-Usage-4th/dp/0194202461?s=bazaar">https://www.amazon.in/Practical-English-Usage-4th/dp/0194202461?s=bazaar</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd016e4d" class="outline-4">
+<h4 id="orgd016e4d"><span class="section-number-4">5.1.3.</span> Special Topics</h4>
+<div class="outline-text-4" id="text-5-1-3">
+</div>
+<ol class="org-ol">
+<li><a id="org8537543"></a>Brave AI<br />
+<ol class="org-ol">
+<li><a id="orga6998d4"></a>Q<br />
+<div class="outline-text-6" id="text-5-1-3-1-1">
+<ul class="org-ul">
+<li>Best Books, Online Resources On Everyday English</li>
+</ul>
+</div>
+</li>
+<li><a id="orgc6e468a"></a>A<br />
+<ul class="org-ul">
+<li><a id="org4d799d7"></a>Annotated Resources<br />
+<div class="outline-text-7" id="text-org4d799d7">
+<ul class="org-ul">
+<li><b><b>English Grammar in Use</b></b> by Raymond Murphy is widely considered
+the top resource for mastering everyday English grammar and usage,
+particularly for intermediate learners. For focused vocabulary and
+natural phrasing, <b><b>The Everyday English</b></b> series by Steven Collins
+(specifically <b>Practical Everyday English</b> and <b>Advanced Everyday
+English</b>) provides essential idioms and phrasal verbs for
+upper-intermediate to advanced students.</li>
+
+<li><b><b>Speak English Like An American</b></b> by Richard Marriott teaches over
+300 idioms and expressions through stories, helping learners
+understand how native speakers use language in casual
+contexts. Additionally, <b><b>English for Everyone</b></b> offers a visual,
+infographic-based approach suitable for all levels, while <b><b>Learning
+English as a Foreign Language for Dummies</b></b> provides practical
+self-study guidance for everyday situations like business calls and
+travel.</li>
+
+<li>For those seeking digital or free options, <b><b>Project Gutenberg</b></b> and
+<b><b>Kindle</b></b> offer access to classic literature and modern e-books,
+while the <b><b>Latinum Institute</b></b> provides free online resources with
+intralinear texts for extensive reading. Platforms like <b><b>Engoo</b></b>
+and <b><b>Duolingo</b></b> also complement traditional books with interactive
+exercises and conversational practice tools.</li>
+</ul>
+</div>
+</li>
+<li><a id="orgadb21ac"></a>Top Recommendations by Focus<br />
+<ul class="org-ul">
+<li><a id="org05ae02c"></a><b><b>Grammar &amp; Usage:</b></b> <b>English Grammar in Use</b> (Raymond Murphy)<br /></li>
+<li><a id="org22e5272"></a><b><b>Vocabulary &amp; Idioms:</b></b> <b>The Everyday English Series</b> (Steven Collins) and <b>Speak English Like An American</b> (Richard Marriott)<br /></li>
+<li><a id="org8b4dc17"></a><b><b>Visual Learning:</b></b> <b>English for Everyone</b> (DK)<br /></li>
+<li><a id="orgeaf4955"></a><b><b>Beginner Self-Study:</b></b> <b>Learning English as a Foreign Language for Dummies</b><br /></li>
+<li><a id="org1c54b81"></a><b><b>Free Digital Resources:</b></b> Project Gutenberg, Latinum Institute, and Kindle<br /></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+</div>
+<div id="outline-container-org43d4f80" class="outline-4">
+<h4 id="org43d4f80"><span class="section-number-4">5.1.4.</span> Misc</h4>
+</div>
+</div>
+<div id="outline-container-org454ba2f" class="outline-3">
+<h3 id="org454ba2f"><span class="section-number-3">5.2.</span> World Englishes</h3>
+<div class="outline-text-3" id="text-5-2">
+<ul class="org-ul">
+<li>M. Filppula, J. Klemola, and D. Sharma, Eds., The Oxford Handbook of World Englishes. New York: OUP USA, 2017.</li>
+</ul>
+
+
+<ul class="org-ul">
+<li>bloomsbury.com, “Bloomsbury World Englishes,” Bloomsbury. <a href="https://www.bloomsbury.com/uk/bloomsbury-world-englishes-9781350072022/">https://www.bloomsbury.com/uk/bloomsbury-world-englishes-9781350072022/</a> (accessed Apr. 14, 2023).</li>
+<li>bloomsbury.com, “World Englishes: A Critical Analysis,” Bloomsbury. <a href="https://www.bloomsbury.com/uk/world-englishes-a-critical-analysis-9781623569723/">https://www.bloomsbury.com/uk/world-englishes-a-critical-analysis-9781623569723/</a> (accessed Apr. 14, 2023).</li>
+<li>bloomsbury.com, “English in the World,” Bloomsbury. <a href="https://www.bloomsbury.com/uk/english-in-the-world-9780826489050/">https://www.bloomsbury.com/uk/english-in-the-world-9780826489050/</a> (accessed Apr. 14, 2023).</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgaeffe3d" class="outline-2">
+<h2 id="orgaeffe3d"><span class="section-number-2">6.</span> Misc</h2>
+<div class="outline-text-2" id="text-6">
+<hr />
+
+<p>
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/omo-bigpic.html">Big Picture</a> <b>|</b>
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/omo-media.html">Media</a>, 
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/omo-miscurls.html">Misc</a> <b>|</b>
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/omo-today.html">Today</a>,
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/omo-aajkal.html">Current Affairs</a> <b>|</b>
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/contact-info.html">Contact Info</a>,
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/license.html">License</a>, 
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/disclaimer.html">Disclaimer</a>.
+</p>
+
+<hr />
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Staff Member(s), <a href="https://ourghostorg.github.io/">OurGhostOrg</a></p>
+<p class="date">Created: 2026-07-06 Mon 18:56</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
